@@ -22,8 +22,8 @@ body {
     text-align: center;
     background-color: transparent;
 }
-.shop_online    .navbar>.container .navbar-brand-centered,
-.shop_online    .navbar>.container-fluid .navbar-brand-centered {
+.shop_online .navbar>.container .navbar-brand-centered,
+.shop_online .navbar>.container-fluid .navbar-brand-centered {
     margin-left: -80px;
     width: 170px;
 }
@@ -59,9 +59,6 @@ body {
 .footer p {
 	margin: 0;
 }
-.footer img {
-	max-width: 100%;
-}
 .footer h3 {
 	border-bottom: 1px solid #BAC1C8;
 	color: #FFFFFF;
@@ -91,41 +88,8 @@ body {
 .footer a {
 	color: #78828D
 }
-.supportLi h4 {
-	font-size: 20px;
-	font-weight: lighter;
-	line-height: normal;
-	margin-bottom: 0 !important;
-	padding-bottom: 0;
-}
-.newsletter-box input#appendedInputButton {
-	background: #FFFFFF;
-	display: inline-block;
-	float: left;
-	height: 30px;
-	clear: both;
-	width: 100%;
-}
-.newsletter-box .btn {
-	border: medium none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
-	border-radius: 3px;
-	display: inline-block;
-	height: 40px;
-	padding: 0;
-	width: 100%;
-	color: #fff;
-}
-.newsletter-box {
-	overflow: hidden;
-}
-.bg-gray {
-	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-	box-shadow: 0 1px 0 #B4B3B3;
-}
+
+
 .social li {
 	background: none repeat scroll 0 0 #B5B5B5;
 	border: 2px solid #B5B5B5;
