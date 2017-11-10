@@ -1,6 +1,9 @@
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
+/* navbar */
+
 .navbar-brand {
   padding: 0px;
 }
@@ -30,21 +33,37 @@ body {
 .shop_online .navbar-right {
     margin-right: 0px;
 }
+.shop_online .navbar-right .fa-lg{
+    line-height: 1;
+}
 .shop_online .navbar-inverse{
     background: #000000;
 }
+/**********/
+
 .carousel-inner .item .slide-image {
     width: 100%;
 }
 
+/* homepage latest prints*/
+.shop_online .thumbnail{
+    max-height: 400px;
+}
 
+.shop_online .thumbnail>img{
+    height: 65%;
+}
 
+.shop_online .thumbnail .caption p{
+    color:red;
+    font-weight: bold;
+}
+
+/* footer */
 .shop_online .footer-bottom .container .pull-right {
     padding-top: 6px;
     padding-right: 30px;
 }
-
-
 
 .footer {
 	background: #0c1a1e;
